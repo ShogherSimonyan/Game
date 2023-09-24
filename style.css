@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+mainContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+main{
+    max-width: 900px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+}
+nav{
+    width: 80%;
+    /* min-height: 650px; */
+    position: relative;
+
+}
+nav>.mek{
+    width: 43% ;
+    height: 5px;
+    /* background-color: white; */
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+nav>.erku{
+    width: 67% ;
+    height: 5px;
+    /* background-color: white; */
+    position: absolute;
+    bottom: 55%;
+    left: -8%;
+    rotate: 90deg;
+}
+nav>.ereq{
+    width: 46%;
+    height: 5px;
+    /* background-color: white; */
+    position: absolute;
+    top: 10%;
+    left: 26%;
+}
+nav>.chors{
+    width: 5px ;
+    height: 30%;
+    /* background-color: white; */
+    position: absolute;
+    top: 10%;
+    left: 72%;
+}
+nav>.hing{
+    width: 70px;
+    height: 70px;
+    /* background-color: white; */
+    position: absolute;
+    border-radius: 50%;
+    left: 67%;
+    top: 25%;
+    
+}
+nav>.vec{
+    width: 5px;
+    height: 100px;
+    /* background-color: white; */
+    position: absolute;
+    left: 72%;
+    top: 36%;
+
+}
+nav>.yot{
+    width: 5px;
+    height: 70px;
+    /* background-color: white; */
+    position: absolute;
+    rotate: 45deg;
+    left: 68.2%;
+    top: 37%;
+}
+nav>.ut{
+    width: 5px;
+    height: 70px;
+    /* background-color: white; */
+    position: absolute;
+    rotate: 135deg;
+    left: 76%;
+    top: 37%;
+}
+nav>.inn{
+    width: 5px;
+    height: 70px;
+    /* background-color: white; */
+    position: absolute;
+    rotate: 45deg;
+    left: 68.2%;
+    top: 49.5%;
+}
+nav>.tas{
+    width: 5px;
+    height: 70px;
+    /* background-color: white; */
+    position: absolute;
+    rotate: 135deg;
+    left: 76%;
+    top: 49.5%;
+}
+nav>div{
+    display: none;
+    background-color: rgb(0, 255, 0);
+}
+.container{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+}
+.container>p{
+    min-width: 20px;
+    text-align: center;
+    visibility: hidden;
+    color: rgb(0, 255, 0);
+}
+.container>p::after{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: rgb(0, 255, 0);
+    display: block;
+    visibility: visible;
+}
+.miavorner{
+    color: rgb(0,255,0);
+    
+    font-size: 30px;
+}
